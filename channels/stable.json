@@ -2,10 +2,13 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "0.2.1",
-  "publishedAt": "2026-10-18T13:14:04Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v0.2.1",
+  "latestVersion": "0.2.3",
+  "publishedAt": "2026-10-18T17:13:12Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v0.2.3",
   "releaseNotes": [
-    "Prevented duplicate FirstSuite backend processes from colliding during service startup or upgrades."
+    "Více současných syslogových vstupů UDP, TCP a TLS s výchozím UDP 514 a zachováním dosavadního nastavení.",
+    "Zabezpečená vzdálená správa Collectoru přes HTTPS s ověřením certifikátu, jednorázovým párováním a odvolatelnými přístupy.",
+    "Diagnostika skutečného stavu vstupů, omezená pravidla Windows Firewall a aktualizovaný instalátor.",
+    "Schválený modrotyrkysový vzhled FirstSuite v Console, ikonách a instalátoru."
   ]
 }
