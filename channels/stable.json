@@ -2,13 +2,12 @@
     "schemaVersion":  1,
     "product":  "FirstSuite",
     "channel":  "stable",
-    "latestVersion":  "0.3.1",
-    "publishedAt":  "2026-10-19T12:55:33Z",
-    "releasePageUrl":  "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v0.3.1",
+    "latestVersion":  "0.3.2",
+    "publishedAt":  "2026-10-19T13:52:24Z",
+    "releasePageUrl":  "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v0.3.2",
     "releaseNotes":  [
-                         "Opravené parsování zpráv Cisco FTD a MikroTik při zachování původního obsahu.",
-                         "Srozumitelnější diagnostika a automatické opakování zápisu po nedostatku místa.",
-                         "Čitelný tmavý filtr závažnosti a průběžně aktualizovaný stav retence.",
-                         "Opravená registrace služeb při instalaci a aktualizaci na 0.3.1."
+                         "Opravené zastavení kapacitního úklidu syslogu po návratu pod nastavený limit zaplnění disku.",
+                         "Malé syslog úložiště se nemaže, pokud tlak na disk způsobují převážně jiné soubory.",
+                         "Aktualizace z 0.3.1 zachovává nastavení a uloženou historii; dříve smazané zprávy neobnoví."
                      ]
 }
