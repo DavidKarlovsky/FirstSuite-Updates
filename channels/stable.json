@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "1.1.0",
-  "publishedAt": "2026-10-20T15:52:30Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v1.1.0",
+  "latestVersion": "1.2.0",
+  "publishedAt": "2026-10-20T18:04:02Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v1.2.0",
   "releaseNotes": [
-    "Monitor nyní umí jednorázově vyhledat zařízení přes Collector a schválit kandidáty do evidence.",
-    "Formulář kontrol zobrazuje pole podle zvolené metody a vzdálený Collector podporuje bezpečné párování.",
-    "Vydávání ověřuje správnou verzi veřejného aktualizačního manifestu."
+    "Monitor vyhledává zařízení průběžně a doplňuje názvy z reverzního DNS.",
+    "IP Discover má samostatný dialog s pohodlným výběrem a úpravou nalezených zařízení.",
+    "Kliknutí na zařízení otevře detail s historií, incidenty a grafy ICMP odezvy pro hodinu, den nebo týden."
   ]
 }
