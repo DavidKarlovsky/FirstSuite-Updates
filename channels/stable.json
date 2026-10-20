@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "0.3.4",
-  "publishedAt": "2026-10-20T05:24:45Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v0.3.4",
+  "latestVersion": "1.0.0",
+  "publishedAt": "2026-10-20T06:20:22Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v1.0.0",
   "releaseNotes": [
-    "Opravené nečitelné tooltipy v Syslogu: tmavé pozadí, světlý text a vzhled sjednocený s aplikací.",
-    "Dlouhé texty tooltipů se zalamují pro snazší čtení.",
-    "Opravený veřejný aktualizační manifest odstraňuje hlášení „Manifest je příliš velký.“"
+    "Nový modul Monitor: evidence zařízení, ICMP/TCP/HTTP kontroly, historie a základní incidenty.",
+    "Nastavitelná retence a oddělené trvalé fronty monitoringu.",
+    "První funkční základ nové vývojové řady; podpora cílové kapacity bude ověřena v dalších etapách."
   ]
 }
