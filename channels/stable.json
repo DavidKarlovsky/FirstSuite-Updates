@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "1.0.0",
-  "publishedAt": "2026-10-20T06:20:22Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v1.0.0",
+  "latestVersion": "1.1.0",
+  "publishedAt": "2026-10-20T15:52:30Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v1.1.0",
   "releaseNotes": [
-    "Nový modul Monitor: evidence zařízení, ICMP/TCP/HTTP kontroly, historie a základní incidenty.",
-    "Nastavitelná retence a oddělené trvalé fronty monitoringu.",
-    "První funkční základ nové vývojové řady; podpora cílové kapacity bude ověřena v dalších etapách."
+    "Monitor nyní umí jednorázově vyhledat zařízení přes Collector a schválit kandidáty do evidence.",
+    "Formulář kontrol zobrazuje pole podle zvolené metody a vzdálený Collector podporuje bezpečné párování.",
+    "Vydávání ověřuje správnou verzi veřejného aktualizačního manifestu."
   ]
 }
