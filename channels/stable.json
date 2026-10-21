@@ -2,12 +2,13 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "1.2.0",
-  "publishedAt": "2026-10-20T18:04:02Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v1.2.0",
+  "latestVersion": "1.2.1",
+  "publishedAt": "2026-10-21T04:03:24Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v1.2.1",
   "releaseNotes": [
-    "Monitor vyhledává zařízení průběžně a doplňuje názvy z reverzního DNS.",
-    "IP Discover má samostatný dialog s pohodlným výběrem a úpravou nalezených zařízení.",
-    "Kliknutí na zařízení otevře detail s historií, incidenty a grafy ICMP odezvy pro hodinu, den nebo týden."
+    "V Monitoru jedno kliknutí vybere zařízení; detail otevře dvojklik, Enter nebo tlačítko Detail, editaci tlačítko Upravit či F2.",
+    "Stav zařízení ukazuje barevný proužek a text pro zdravou kontrolu, ověřování závady, závadu, vypnutí i chybějící aktuální data.",
+    "Organizace, lokality a síťové prostory lze spravovat v Nastavení a při přidávání zařízení nebo IP Discover vybírat z číselníků.",
+    "Dosavadní umístění zařízení se při aktualizaci převedou bez ztráty historie a incidentů."
   ]
 }
