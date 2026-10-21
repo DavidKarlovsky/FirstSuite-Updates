@@ -2,13 +2,14 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "1.3.0",
-  "publishedAt": "2026-10-21T15:43:34Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v1.3.0",
+  "latestVersion": "1.3.1",
+  "publishedAt": "2026-10-21T18:29:25Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v1.3.1",
   "releaseNotes": [
-    "Monitor nyní hledá, filtruje a řadí celou evidenci zařízení na serveru před stránkováním.",
-    "Strom organizací, lokalit a síťových prostorů ukazuje počty závad; stavové souhrny a dlaždice větví sdílejí stejné filtry.",
-    "Osobní uložené pohledy uchovávají hledání, filtry, řazení a vybrané umístění pro tohoto Windows uživatele a Server API.",
-    "Filtrování zachovává rozepsanou editaci a kompaktní rozložení udržuje formulář i seznam dosažitelné."
+    "Monitor zobrazuje provozní souhrny před filtry; editor zařízení je samostatný dialog a párování patří do Kolektorů.",
+    "Dashboard přidává stavy Monitoru, aktuální závady, lokality a diagnostiku sběru bez skrývání dostupného Syslogu.",
+    "ICMP graf používá bezplatný LiveCharts2 se zoomem, posunem, výběrem úseku a dočítáním detailnějších dat.",
+    "Collector přebírá nové kontroly i pozdější změny konfigurace bez restartu procesu a chrání čekající frontu.",
+    "Opraveno je kódování výchozího názvu syslog vstupu; Console a instalátor nově vyžadují Windows 10 2004 nebo novější."
   ]
 }
