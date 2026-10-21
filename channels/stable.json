@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "1.2.1",
-  "publishedAt": "2026-10-21T04:03:24Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v1.2.1",
+  "latestVersion": "1.3.0",
+  "publishedAt": "2026-10-21T15:43:34Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v1.3.0",
   "releaseNotes": [
-    "V Monitoru jedno kliknutí vybere zařízení; detail otevře dvojklik, Enter nebo tlačítko Detail, editaci tlačítko Upravit či F2.",
-    "Stav zařízení ukazuje barevný proužek a text pro zdravou kontrolu, ověřování závady, závadu, vypnutí i chybějící aktuální data.",
-    "Organizace, lokality a síťové prostory lze spravovat v Nastavení a při přidávání zařízení nebo IP Discover vybírat z číselníků.",
-    "Dosavadní umístění zařízení se při aktualizaci převedou bez ztráty historie a incidentů."
+    "Monitor nyní hledá, filtruje a řadí celou evidenci zařízení na serveru před stránkováním.",
+    "Strom organizací, lokalit a síťových prostorů ukazuje počty závad; stavové souhrny a dlaždice větví sdílejí stejné filtry.",
+    "Osobní uložené pohledy uchovávají hledání, filtry, řazení a vybrané umístění pro tohoto Windows uživatele a Server API.",
+    "Filtrování zachovává rozepsanou editaci a kompaktní rozložení udržuje formulář i seznam dosažitelné."
   ]
 }
