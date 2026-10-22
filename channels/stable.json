@@ -2,15 +2,16 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "2.0.0",
-  "publishedAt": "2026-10-22T08:36:28Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.0.0",
+  "latestVersion": "2.0.1",
+  "publishedAt": "2026-10-22T10:04:35Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.0.1",
   "releaseNotes": [
-    "FirstSuite 2.0.0 přináší nový tmavě modrý vzhled, horní navigaci a více prostoru pro provozní data.",
-    "Monitor má stavové karty, rychlé hledání, sbalitelný strom, pravý náhled skutečných měření a kontextové nabídky zařízení.",
-    "Nastavení je rozdělené do kategorií platformy, Syslogu a Monitoru.",
-    "Vydání zahrnuje dosud nepublikované rozšíření Monitoru: více kontrol na zařízení, read-only SNMPv3/v2c, typované metriky, prahové incidenty a členění zařízení.",
-    "Před aktualizací společně zálohujte data a bezpečnostní konfiguraci; Console i všechny služby a Collectory aktualizujte koordinovaně kvůli protokolu Monitoru 2.",
-    "SNMP pověření jsou chráněna servisní identitou Windows; při změně účtu nebo stroje nejprve vytvořte přenosnou šifrovanou zálohu profilů."
+    "FirstSuite 2.0.1 opravuje načítání SNMP a zachovává funkce i vzhled verze 2.0.0.",
+    "SNMP respektuje nastavený timeout bez zbytečného krácení a zpracuje odpověď tooBig rozdělením GET na menší dotazy.",
+    "Průvodce umožňuje změnit timeout a použít GETNEXT; při neodpovídajícím GETBULK jej Collector zkusí automaticky a zachová částečné výsledky.",
+    "Nové zařízení lze uložit rovnou se SNMP profilem a vybranými metrikami; výchozí SNMP port je 161.",
+    "Community je při zadávání viditelná; uložená hodnota se při otevření profilu nevrací a prázdná úprava ji zachová.",
+    "Kontextové nabídky mají opravený tmavý vzhled bez bílého pruhu.",
+    "Console i všechny služby a Collectory aktualizujte koordinovaně; před aktualizací společně zálohujte data a bezpečnostní konfiguraci."
   ]
 }
