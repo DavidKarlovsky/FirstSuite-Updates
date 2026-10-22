@@ -2,16 +2,15 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "2.0.1",
-  "publishedAt": "2026-10-22T10:04:35Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.0.1",
+  "latestVersion": "2.0.2",
+  "publishedAt": "2026-10-22T10:44:01Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.0.2",
   "releaseNotes": [
-    "FirstSuite 2.0.1 opravuje načítání SNMP a zachovává funkce i vzhled verze 2.0.0.",
-    "SNMP respektuje nastavený timeout bez zbytečného krácení a zpracuje odpověď tooBig rozdělením GET na menší dotazy.",
-    "Průvodce umožňuje změnit timeout a použít GETNEXT; při neodpovídajícím GETBULK jej Collector zkusí automaticky a zachová částečné výsledky.",
-    "Nové zařízení lze uložit rovnou se SNMP profilem a vybranými metrikami; výchozí SNMP port je 161.",
-    "Community je při zadávání viditelná; uložená hodnota se při otevření profilu nevrací a prázdná úprava ji zachová.",
-    "Kontextové nabídky mají opravený tmavý vzhled bez bílého pruhu.",
-    "Console i všechny služby a Collectory aktualizujte koordinovaně; před aktualizací společně zálohujte data a bezpečnostní konfiguraci."
+    "FirstSuite 2.0.2 zlepšuje kompatibilitu SNMP komunikace použitím kladných identifikátorů požadavků.",
+    "GET, GETNEXT, GETBULK i zjištění SNMPv3 engine se vyhýbají záporným ID, která někteří agenti vracejí v podobě způsobující Decode:SnmpException.",
+    "Diagnostika bezpečně rozlišuje vnitřní typ chyby a fázi parseru bez vypisování Community a obsahu odpovědi.",
+    "Oprava je ověřena nezávisle sestavenými BER odpověďmi přes UDP; konkrétní fyzické zařízení MikroTik nebylo dostupné.",
+    "Zůstávají zachovány opravy a funkce verzí 2.0.0 a 2.0.1 včetně formulářů SNMP, metrik, incidentů a vzhledu.",
+    "Console i služby a Collectory aktualizujte koordinovaně a před aktualizací společně zálohujte data a bezpečnostní konfiguraci."
   ]
 }
