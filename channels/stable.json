@@ -2,15 +2,14 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "2.0.2",
-  "publishedAt": "2026-10-22T10:44:01Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.0.2",
+  "latestVersion": "2.1.0",
+  "publishedAt": "2026-10-22T14:12:56Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.1.0",
   "releaseNotes": [
-    "FirstSuite 2.0.2 zlepšuje kompatibilitu SNMP komunikace použitím kladných identifikátorů požadavků.",
-    "GET, GETNEXT, GETBULK i zjištění SNMPv3 engine se vyhýbají záporným ID, která někteří agenti vracejí v podobě způsobující Decode:SnmpException.",
-    "Diagnostika bezpečně rozlišuje vnitřní typ chyby a fázi parseru bez vypisování Community a obsahu odpovědi.",
-    "Oprava je ověřena nezávisle sestavenými BER odpověďmi přes UDP; konkrétní fyzické zařízení MikroTik nebylo dostupné.",
-    "Zůstávají zachovány opravy a funkce verzí 2.0.0 a 2.0.1 včetně formulářů SNMP, metrik, incidentů a vzhledu.",
-    "Console i služby a Collectory aktualizujte koordinovaně a před aktualizací společně zálohujte data a bezpečnostní konfiguraci."
+    "Nový modul Inventář eviduje hardware ručně i automaticky přes SNMP, včetně výrobce, modelu, sériového čísla, umístění a historie.",
+    "SNMP doplňuje jednoznačné údaje šasi a chrání ručně upravené hodnoty; možné duplicity lze prověřit a propojit.",
+    "Kolektory se vybírají ze seznamů a monitorovací kontroly lze odstranit se zachováním dostupné historie.",
+    "Sloupec Odezva zobrazuje skutečné ICMP měření; čas zpracování SNMP se jako odezva nezobrazuje.",
+    "Kontextové nabídky při fokusu neposouvají text. Všechny komponenty aktualizujte společně a předem zálohujte data."
   ]
 }
