@@ -2,15 +2,14 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "2.1.1",
-  "publishedAt": "2026-10-22T14:59:03Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.1.1",
+  "latestVersion": "2.1.2",
+  "publishedAt": "2026-10-22T15:46:45Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.1.2",
   "releaseNotes": [
-    "Automatické názvy kontrol s možností vlastního přejmenování.",
-    "Volitelné spuštění ICMP monitoringu při přidání z Discovery a srozumitelné přepínače sběru.",
-    "Předvyplnění uložené Community při úpravě SNMPv2c profilu.",
-    "Síťové prostory sdílené mezi lokalitami organizace s bezpečnou migrací existujících dat.",
-    "Čitelný titulek malého grafu v rychlém náhledu zařízení.",
+    "Sériové číslo šasi ze SNMP ENTITY-MIB v Inventáři s bezpečným výběrem skutečného indexu.",
+    "Funkční výběr skalárů i tabulek offline SNMP šablon v obou editorech.",
+    "Náhled OID, kontrola indexů, vynechání duplicit a zachování vlastních metrik.",
+    "Podporu MIB a indexy určuje konkrétní zařízení; lze je zjistit SNMP průvodcem.",
     "Console a služby aktualizujte společně; před upgradem zálohujte data."
   ]
 }
