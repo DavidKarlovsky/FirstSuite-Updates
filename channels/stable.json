@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "1.3.1",
-  "publishedAt": "2026-10-21T18:29:25Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v1.3.1",
+  "latestVersion": "1.3.2",
+  "publishedAt": "2026-10-22T04:14:39Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v1.3.2",
   "releaseNotes": [
-    "Monitor zobrazuje provozní souhrny před filtry; editor zařízení je samostatný dialog a párování patří do Kolektorů.",
-    "Dashboard přidává stavy Monitoru, aktuální závady, lokality a diagnostiku sběru bez skrývání dostupného Syslogu.",
-    "ICMP graf používá bezplatný LiveCharts2 se zoomem, posunem, výběrem úseku a dočítáním detailnějších dat.",
-    "Collector přebírá nové kontroly i pozdější změny konfigurace bez restartu procesu a chrání čekající frontu.",
-    "Opraveno je kódování výchozího názvu syslog vstupu; Console a instalátor nově vyžadují Windows 10 2004 nebo novější."
+    "Monitor ukončuje incidenty při změně či vypnutí kontroly s výslovným důvodem odlišným od zotavení.",
+    "Editor zařízení umožňuje nastavit počet neúspěchů do závady a úspěchů do zotavení v rozsahu 1–100.",
+    "Historie měření a incidenty v detailu mají vlastní časový filtr a načítání dalších stránek v rámci retence.",
+    "Přejmenování nebo změna umístění zachovává návaznost měření; souběžné editace chrání konfigurační verze.",
+    "Console, Server a Processing aktualizujte společně; požadavek Windows 10 2004 nebo novější se nemění."
   ]
 }
