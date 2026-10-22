@@ -2,14 +2,15 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "2.1.0",
-  "publishedAt": "2026-10-22T14:12:56Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.1.0",
+  "latestVersion": "2.1.1",
+  "publishedAt": "2026-10-22T14:59:03Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.1.1",
   "releaseNotes": [
-    "Nový modul Inventář eviduje hardware ručně i automaticky přes SNMP, včetně výrobce, modelu, sériového čísla, umístění a historie.",
-    "SNMP doplňuje jednoznačné údaje šasi a chrání ručně upravené hodnoty; možné duplicity lze prověřit a propojit.",
-    "Kolektory se vybírají ze seznamů a monitorovací kontroly lze odstranit se zachováním dostupné historie.",
-    "Sloupec Odezva zobrazuje skutečné ICMP měření; čas zpracování SNMP se jako odezva nezobrazuje.",
-    "Kontextové nabídky při fokusu neposouvají text. Všechny komponenty aktualizujte společně a předem zálohujte data."
+    "Automatické názvy kontrol s možností vlastního přejmenování.",
+    "Volitelné spuštění ICMP monitoringu při přidání z Discovery a srozumitelné přepínače sběru.",
+    "Předvyplnění uložené Community při úpravě SNMPv2c profilu.",
+    "Síťové prostory sdílené mezi lokalitami organizace s bezpečnou migrací existujících dat.",
+    "Čitelný titulek malého grafu v rychlém náhledu zařízení.",
+    "Console a služby aktualizujte společně; před upgradem zálohujte data."
   ]
 }
