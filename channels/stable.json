@@ -2,15 +2,15 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "2.2.0",
-  "publishedAt": "2026-10-25T10:52:04Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.2.0",
+  "latestVersion": "2.3.0",
+  "publishedAt": "2026-10-25T17:41:51Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.3.0",
   "releaseNotes": [
-    "Přehledný výběr SNMP rozhraní a metrik, pokračování discovery a atomická ochrana před duplicitami.",
-    "Vlastní verzované SNMP šablony, ověření kompatibility a bezpečné propojení s Inventářem.",
-    "Grafy přímo u zařízení, připnutí hodnot, delší historie a odvozené využití kapacity portu.",
-    "Strom Organizací, Lokalit a Síťových prostorů s bezpečnými přesuny a hromadným přiřazením.",
-    "Rozšířené kontrakty a pomocná tabulka identity: všech pět komponent aktualizujte společně a zálohujte data.",
-    "Podpora SNMP závisí na zařízení a firmwaru; vlastní šablony jsou osobní pro Console."
+    "Jednotné Nastavit SNMP: vyberte pojmenované údaje a síťové porty zaškrtnutím, bez znalosti OID či indexů.",
+    "Automatické načtení všech dostupných stránek rozhraní, doporučené metriky a jedno společné uložení bez duplicit.",
+    "Sériové číslo jedním výběrem, pojmenované hlavní šasi stacku a zachování ručních inventárních hodnot.",
+    "Ochrana před změnou zařízení či SNMP přístupu během nastavení; offline snapshot je pouze datovaný náhled.",
+    "Rozšířené kontrakty a nová pomocná tabulka: zálohujte konfiguraci i data a aktualizujte všech pět komponent společně.",
+    "Podpora údajů závisí na zařízení a firmwaru; vydání není univerzální certifikací fyzického hardware."
   ]
 }
