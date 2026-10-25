@@ -2,14 +2,15 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "2.1.2",
-  "publishedAt": "2026-10-22T15:46:45Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.1.2",
+  "latestVersion": "2.2.0",
+  "publishedAt": "2026-10-25T10:52:04Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.2.0",
   "releaseNotes": [
-    "Sériové číslo šasi ze SNMP ENTITY-MIB v Inventáři s bezpečným výběrem skutečného indexu.",
-    "Funkční výběr skalárů i tabulek offline SNMP šablon v obou editorech.",
-    "Náhled OID, kontrola indexů, vynechání duplicit a zachování vlastních metrik.",
-    "Podporu MIB a indexy určuje konkrétní zařízení; lze je zjistit SNMP průvodcem.",
-    "Console a služby aktualizujte společně; před upgradem zálohujte data."
+    "Přehledný výběr SNMP rozhraní a metrik, pokračování discovery a atomická ochrana před duplicitami.",
+    "Vlastní verzované SNMP šablony, ověření kompatibility a bezpečné propojení s Inventářem.",
+    "Grafy přímo u zařízení, připnutí hodnot, delší historie a odvozené využití kapacity portu.",
+    "Strom Organizací, Lokalit a Síťových prostorů s bezpečnými přesuny a hromadným přiřazením.",
+    "Rozšířené kontrakty a pomocná tabulka identity: všech pět komponent aktualizujte společně a zálohujte data.",
+    "Podpora SNMP závisí na zařízení a firmwaru; vlastní šablony jsou osobní pro Console."
   ]
 }
