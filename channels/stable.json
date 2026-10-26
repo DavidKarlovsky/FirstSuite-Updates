@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "2.4.0",
-  "publishedAt": "2026-10-26T05:34:58Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.4.0",
+  "latestVersion": "2.4.1",
+  "publishedAt": "2026-10-26T06:17:46Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.4.1",
   "releaseNotes": [
-    "Nové záložky Porty a Senzory s přímým přístupem ke grafům a hodnotám každého sledovaného údaje.",
-    "Vlastní názvy portů jsou sdílené na serveru a zůstávají zachované při opětovném SNMP discovery.",
-    "Čitelnější LiveCharts2 grafy: škálované jednotky, barevná legenda, kurzor, tooltipy a schodová rychlost linky.",
-    "Kolečko posouvá okno i nad grafem; Ctrl + kolečko zoomuje bez poskakování obsahu.",
-    "Přepínání Graf/Hodnoty zachovává období a interpretaci; starší agregace a nekvalitní data jsou označené.",
-    "Zálohujte konfiguraci i data a aktualizujte všech pět komponent společně; nová Console vyžaduje nové API Serveru.",
-    "Podpora závisí na zařízení a vybraném sběru; vydání nepřidává fyzický/virtuální filtr portů ani neomezený raw export."
+    "Oprava chybějícího Příjmu, Odesílání, Využití a Trendu při explicitně nepodporovaném standardním SNMP markeru resetu portu.",
+    "Kontrolovaný výpočet z uptime a stabilní identity zachovává ochrany restartu, změny indexu, mezer a resetu čítače.",
+    "Tooltip portu rozlišuje kvalitu a stáří měření a označuje použití náhradního režimu návaznosti.",
+    "Skutečný nulový provoz zůstává nulou; staré či chybějící hodnoty nejsou vydávané za aktuální měření.",
+    "Zálohujte konfiguraci a data a aktualizujte komponenty společně; oprava vyžaduje nový Collector a Server, Console přidává diagnostiku.",
+    "Provoz se obnoví z nové navazující dvojice měření; starší historie a mezery se zpětně nedoplňují.",
+    "Podpora závisí na zařízení a firmwaru; bez markeru nelze zaručit odhalení každého samostatného resetu portu."
   ]
 }
