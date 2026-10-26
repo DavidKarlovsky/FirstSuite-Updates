@@ -2,15 +2,16 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "2.3.0",
-  "publishedAt": "2026-10-25T17:41:51Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.3.0",
+  "latestVersion": "2.4.0",
+  "publishedAt": "2026-10-26T05:34:58Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.4.0",
   "releaseNotes": [
-    "Jednotné Nastavit SNMP: vyberte pojmenované údaje a síťové porty zaškrtnutím, bez znalosti OID či indexů.",
-    "Automatické načtení všech dostupných stránek rozhraní, doporučené metriky a jedno společné uložení bez duplicit.",
-    "Sériové číslo jedním výběrem, pojmenované hlavní šasi stacku a zachování ručních inventárních hodnot.",
-    "Ochrana před změnou zařízení či SNMP přístupu během nastavení; offline snapshot je pouze datovaný náhled.",
-    "Rozšířené kontrakty a nová pomocná tabulka: zálohujte konfiguraci i data a aktualizujte všech pět komponent společně.",
-    "Podpora údajů závisí na zařízení a firmwaru; vydání není univerzální certifikací fyzického hardware."
+    "Nové záložky Porty a Senzory s přímým přístupem ke grafům a hodnotám každého sledovaného údaje.",
+    "Vlastní názvy portů jsou sdílené na serveru a zůstávají zachované při opětovném SNMP discovery.",
+    "Čitelnější LiveCharts2 grafy: škálované jednotky, barevná legenda, kurzor, tooltipy a schodová rychlost linky.",
+    "Kolečko posouvá okno i nad grafem; Ctrl + kolečko zoomuje bez poskakování obsahu.",
+    "Přepínání Graf/Hodnoty zachovává období a interpretaci; starší agregace a nekvalitní data jsou označené.",
+    "Zálohujte konfiguraci i data a aktualizujte všech pět komponent společně; nová Console vyžaduje nové API Serveru.",
+    "Podpora závisí na zařízení a vybraném sběru; vydání nepřidává fyzický/virtuální filtr portů ani neomezený raw export."
   ]
 }
