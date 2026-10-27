@@ -2,14 +2,15 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "2.6.0",
-  "publishedAt": "2026-10-27T07:41:11Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.6.0",
+  "latestVersion": "2.7.0",
+  "publishedAt": "2026-10-27T18:06:00Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.7.0",
   "releaseNotes": [
-    "Automatický sběr SNMP identity, LLDP, MAC a IP vazeb funguje i bez otevřené Console a je výchozím nastavením zapnutý také pro stávající SNMP zařízení.",
-    "Nový pohled Síť vyhledává zařízení podle názvu, IP a MAC a nabízí globální mapu, poslední známou polohu a historii pozorování.",
-    "Detail Systém doplňuje hardware, operační systém, verzi, licenci, sériové číslo a zdroj i čas zjištěných údajů.",
-    "Obnova inventáře zachovává ruční údaje a umožňuje jednotlivá pole vrátit na SNMP; opravuje falešné konflikty při obnově.",
-    "Před aktualizací společně zálohujte data a aktualizujte všech pět komponent; historie vzniká až novým sběrem a odhadované polohy nejsou potvrzením fyzického zapojení."
+    "IP Discovery umožňuje hromadně vybrat skutečné ICMP odpovědi, zapnout monitoring a ihned zařadit zařízení do propojeného Inventáře.",
+    "Jednorázové SNMP dávky doplní identifikaci, inventární údaje nebo rozhraní, pokračují bez otevřeného okna a umožňují opakovat pouze neúspěšné kroky.",
+    "Server se spustí i při poškozeném JSON retence; bez platných limitů zachová historii a pozastaví mazání do nápravy.",
+    "Inventář doplňuje systémové jméno, OS, verze, firmware, revizi hardwaru a zjištěnou licenci při zachování ručních údajů.",
+    "SNMP provoz má společný editor a moduly i nastavení nabízejí sjednocené kontextové akce.",
+    "Před aktualizací společně zálohujte data a aktualizujte všech pět komponent; SNMP údaje závisejí na podpoře zařízení a jednorázové dávky mají omezený rozsah."
   ]
 }
