@@ -2,16 +2,17 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "2.4.1",
-  "publishedAt": "2026-10-26T06:17:46Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.4.1",
+  "latestVersion": "2.5.0",
+  "publishedAt": "2026-10-27T06:01:44Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.5.0",
   "releaseNotes": [
-    "Oprava chybějícího Příjmu, Odesílání, Využití a Trendu při explicitně nepodporovaném standardním SNMP markeru resetu portu.",
-    "Kontrolovaný výpočet z uptime a stabilní identity zachovává ochrany restartu, změny indexu, mezer a resetu čítače.",
-    "Tooltip portu rozlišuje kvalitu a stáří měření a označuje použití náhradního režimu návaznosti.",
-    "Skutečný nulový provoz zůstává nulou; staré či chybějící hodnoty nejsou vydávané za aktuální měření.",
-    "Zálohujte konfiguraci a data a aktualizujte komponenty společně; oprava vyžaduje nový Collector a Server, Console přidává diagnostiku.",
-    "Provoz se obnoví z nové navazující dvojice měření; starší historie a mezery se zpětně nedoplňují.",
-    "Podpora závisí na zařízení a firmwaru; bez markeru nelze zaručit odhalení každého samostatného resetu portu."
+    "První etapa topologie: na kliknutí načte LLDP sousedy, MAC tabulku FDB a ARP a zobrazí mapu okolí vybraného zařízení.",
+    "Topologie uvádí zdroj, čas a neúplnost dat; FDB a ARP slouží jako doplňující evidence, ne jako důkaz fyzického propojení.",
+    "Grafy metrik používají jednu osu Y a samostatný panel chyb sběru. Grafy i hodnoty rozhraní zobrazují názvy portů.",
+    "Připnuté grafy lze přímo odepnout; prázdný osobní výběr zůstává zachován. Uptime je hodnota s historií bez lineárního grafu.",
+    "Inventář lze jedním kliknutím obnovit ze SNMP i po ručních úpravách; platný název se synchronizuje také do Monitoru.",
+    "Sériové číslo doplňuje bezpečný textový fallback pro MikroTik a TP-Link s ověřením výrobce; podpora závisí na modelu a firmwaru.",
+    "MAC adresy rozhraní se správně dekódují z bajtů. Staré poškozené záznamy opraví nové načtení rozhraní ze SNMP.",
+    "Před aktualizací zálohujte konfiguraci a data a aktualizujte všech pět komponent koordinovaně. Mapa zatím pokrývá okolí jednoho zařízení, nikoli celou síť automaticky."
   ]
 }
