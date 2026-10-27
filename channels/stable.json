@@ -2,17 +2,14 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "2.5.0",
-  "publishedAt": "2026-10-27T06:01:44Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.5.0",
+  "latestVersion": "2.6.0",
+  "publishedAt": "2026-10-27T07:41:11Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.6.0",
   "releaseNotes": [
-    "První etapa topologie: na kliknutí načte LLDP sousedy, MAC tabulku FDB a ARP a zobrazí mapu okolí vybraného zařízení.",
-    "Topologie uvádí zdroj, čas a neúplnost dat; FDB a ARP slouží jako doplňující evidence, ne jako důkaz fyzického propojení.",
-    "Grafy metrik používají jednu osu Y a samostatný panel chyb sběru. Grafy i hodnoty rozhraní zobrazují názvy portů.",
-    "Připnuté grafy lze přímo odepnout; prázdný osobní výběr zůstává zachován. Uptime je hodnota s historií bez lineárního grafu.",
-    "Inventář lze jedním kliknutím obnovit ze SNMP i po ručních úpravách; platný název se synchronizuje také do Monitoru.",
-    "Sériové číslo doplňuje bezpečný textový fallback pro MikroTik a TP-Link s ověřením výrobce; podpora závisí na modelu a firmwaru.",
-    "MAC adresy rozhraní se správně dekódují z bajtů. Staré poškozené záznamy opraví nové načtení rozhraní ze SNMP.",
-    "Před aktualizací zálohujte konfiguraci a data a aktualizujte všech pět komponent koordinovaně. Mapa zatím pokrývá okolí jednoho zařízení, nikoli celou síť automaticky."
+    "Automatický sběr SNMP identity, LLDP, MAC a IP vazeb funguje i bez otevřené Console a je výchozím nastavením zapnutý také pro stávající SNMP zařízení.",
+    "Nový pohled Síť vyhledává zařízení podle názvu, IP a MAC a nabízí globální mapu, poslední známou polohu a historii pozorování.",
+    "Detail Systém doplňuje hardware, operační systém, verzi, licenci, sériové číslo a zdroj i čas zjištěných údajů.",
+    "Obnova inventáře zachovává ruční údaje a umožňuje jednotlivá pole vrátit na SNMP; opravuje falešné konflikty při obnově.",
+    "Před aktualizací společně zálohujte data a aktualizujte všech pět komponent; historie vzniká až novým sběrem a odhadované polohy nejsou potvrzením fyzického zapojení."
   ]
 }
