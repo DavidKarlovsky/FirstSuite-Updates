@@ -2,15 +2,13 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "2.7.0",
-  "publishedAt": "2026-10-27T18:06:00Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.7.0",
+  "latestVersion": "2.7.2",
+  "publishedAt": "2026-10-28T08:26:07Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.7.2",
   "releaseNotes": [
-    "IP Discovery umožňuje hromadně vybrat skutečné ICMP odpovědi, zapnout monitoring a ihned zařadit zařízení do propojeného Inventáře.",
-    "Jednorázové SNMP dávky doplní identifikaci, inventární údaje nebo rozhraní, pokračují bez otevřeného okna a umožňují opakovat pouze neúspěšné kroky.",
-    "Server se spustí i při poškozeném JSON retence; bez platných limitů zachová historii a pozastaví mazání do nápravy.",
-    "Inventář doplňuje systémové jméno, OS, verze, firmware, revizi hardwaru a zjištěnou licenci při zachování ručních údajů.",
-    "SNMP provoz má společný editor a moduly i nastavení nabízejí sjednocené kontextové akce.",
-    "Před aktualizací společně zálohujte data a aktualizujte všech pět komponent; SNMP údaje závisejí na podpoře zařízení a jednorázové dávky mají omezený rozsah."
+    "Monitor opravuje nesprávné zastavení příjmu všech zařízení kvůli pomocným SQLite souborům a znovu využitelným databázovým stránkám.",
+    "Skutečný limit historie a disková rezerva zůstávají zachované; nepotvrzené dávky zůstávají v trvalé frontě a mladší historie se kvůli kapacitě nemaže.",
+    "Diagnostika rozlišuje limit historie od nedostatku volného místa a zaznamenává obnovené zpracování.",
+    "Před aktualizací společně zálohujte konfiguraci a data a aktualizujte všech pět komponent. Při skutečně plné historii je nadále nutné ověřit kapacitní a retenční nastavení."
   ]
 }
