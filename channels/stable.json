@@ -2,13 +2,15 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "2.7.2",
-  "publishedAt": "2026-10-28T08:26:07Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.7.2",
+  "latestVersion": "2.8.0",
+  "publishedAt": "2026-10-28T11:19:29Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.8.0",
   "releaseNotes": [
-    "Monitor opravuje nesprávné zastavení příjmu všech zařízení kvůli pomocným SQLite souborům a znovu využitelným databázovým stránkám.",
-    "Skutečný limit historie a disková rezerva zůstávají zachované; nepotvrzené dávky zůstávají v trvalé frontě a mladší historie se kvůli kapacitě nemaže.",
-    "Diagnostika rozlišuje limit historie od nedostatku volného místa a zaznamenává obnovené zpracování.",
-    "Před aktualizací společně zálohujte konfiguraci a data a aktualizujte všech pět komponent. Při skutečně plné historii je nadále nutné ověřit kapacitní a retenční nastavení."
+    "Monitor umožňuje hromadně připravit a zapnout SNMP pro vybraná zařízení, přiřadit uložené přístupy a vybrat skutečné porty bez kopírování indexů.",
+    "Serverové dávky pokračují po zavření Console a umožňují opakovat pouze neúspěšná zařízení; existující sběr a ruční údaje se zachovávají.",
+    "Nastavení obsahuje sdílený verzovaný katalog SNMP definic a výslovný import osobních šablon.",
+    "Porty mají barevné stavové badges a historii změn rychlosti a duplexu; přenos a chyby zůstávají v grafech.",
+    "Přehled Monitoru zobrazuje výrobce, Inventář nabízí pojmenované SNMP přístupy a tabulky i oddělovače nabídek mají sjednocené zarovnání.",
+    "Před aktualizací zálohujte konfiguraci a data a koordinovaně aktualizujte všech pět komponent. Podpora konkrétních údajů závisí na zařízení a zvolené definici."
   ]
 }
