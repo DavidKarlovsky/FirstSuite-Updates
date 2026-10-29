@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.0.0",
-  "publishedAt": "2026-10-29T15:12:09Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.0.0",
+  "latestVersion": "3.0.1",
+  "publishedAt": "2026-10-29T17:50:19Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.0.1",
   "releaseNotes": [
-    "Monitor: hromadné úpravy s náhledem, auditem a Vrátit, rychlé akce a výběr všech zařízení dle filtru.",
-    "Hierarchické skupiny, fazety, volitelné sloupce, osobní a sdílené pohledy, průběžné dočítání a delta obnova.",
-    "Klávesové zkratky a paleta příkazů, inline přejmenování, editor se záložkami a hromadná úprava Inventáře.",
-    "Archivace zastaví kontroly; trvalé odstranění je dostupné jen pro archivovaná zařízení a odpojí Inventář.",
-    "Console 3.0.0 vyžaduje Server 3.0.0. Před aktualizací zálohujte konfiguraci a data a koordinovaně aktualizujte všech pět komponent. Návrat na 2.9.x vyžaduje obnovu zálohy."
+    "Monitor: kratší transakce a čtení bez zápisového zámku při dohánění fronty; rychlejší FIFO se zachováním historie a sémantiky incidentů.",
+    "Diagnostika kapacity, Processing a čekající fronty s upozorněním v Console; rozlišení místního Collectoru bez nutnosti párování.",
+    "Obnova chybějícího správního klíče pomocí configure-monitor.ps1 -RotateManagementKey bez výměny producer pověření.",
+    "Oprava souběžné inicializace SQLite při startu služeb. Zkontrolujte retenci a limit úložiště; čekající frontu nemažte.",
+    "Protokol správy 4, bez nové migrace dat proti 3.0.0. Před aktualizací zálohujte a koordinovaně aktualizujte všech pět komponent. Čistá VM, skutečná 5GB databáze a dlouhodobá zátěž zatím nebyly ověřeny."
   ]
 }
