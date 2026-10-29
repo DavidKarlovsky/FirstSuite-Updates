@@ -2,15 +2,14 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "2.8.1",
-  "publishedAt": "2026-10-28T17:08:24Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.8.1",
+  "latestVersion": "2.9.0",
+  "publishedAt": "2026-10-29T04:33:08Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v2.9.0",
   "releaseNotes": [
-    "Hromadné SNMP stačí spustit jedním potvrzením po výběru přístupu a skupin údajů. Server ověří zařízení a doplní dostupný sběr; průběh i omezení ukazuje jeden seznam.",
-    "Existující přístupy, kontroly, historie a ruční údaje se zachovávají. Výjimky jsou v pokročilých volbách a vypnutý dohled se zapíná pouze výslovně.",
-    "Oprava řeší kolizi načítání sdíleného katalogu, doplnění identity portů při stránkování a zastavení načítání, které nepřináší nové ověřené údaje.",
-    "Tabulky, seznamy a grafy mají samostatné panely nebo záložky pro přehlednější posouvání. Stavové odznaky rozlišují provozní stavy, vypnutí i starší údaje topologie.",
-    "Oprava brání pádu při předčasném přibližování nebo posunu grafu. Ovládání bezpečně zpracuje i prázdnou oblast a drží časový rozsah v dostupném období.",
-    "Před aktualizací zálohujte konfiguraci a data a koordinovaně aktualizujte všech pět komponent. Nový průvodce potřebuje nový Server; starší náhledy vyžadují nové potvrzení."
+    "Spolehlivější příjem syslogu: trvale vadné dávky se odkládají do omezené karantény a jejich počet je vidět ve stavu kolektoru, spadlé vstupy se obnovují a TCP/TLS příjem zpomaluje odesílatele místo zahazování zpráv.",
+    "Přísnější rozpoznání formátu zpráv a ochrana před zahlcením zvlášť konstruovanými zprávami.",
+    "Bezpečnější rozhraní: ověření příjmu dat, limity těla požadavků, ochrana změny retence klíčem správy, kontrola původu SignalR a robustnější párování i varování před vypršením certifikátu.",
+    "Úložiště používá verzi schématu, ohraničený úklid, nové indexy a rychlejší retenci. Console vykresluje živý syslog po dávkách a stabilněji se připojuje.",
+    "Před aktualizací zálohujte konfiguraci a data a koordinovaně aktualizujte všech pět komponent. Po aktualizaci se bez zálohy nelze bezpečně vrátit na starší verzi."
   ]
 }
