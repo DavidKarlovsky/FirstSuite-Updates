@@ -2,14 +2,15 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.0.1",
-  "publishedAt": "2026-10-29T17:50:19Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.0.1",
+  "latestVersion": "3.1.0",
+  "publishedAt": "2026-10-30T06:21:42Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.1.0",
   "releaseNotes": [
-    "Monitor: kratší transakce a čtení bez zápisového zámku při dohánění fronty; rychlejší FIFO se zachováním historie a sémantiky incidentů.",
-    "Diagnostika kapacity, Processing a čekající fronty s upozorněním v Console; rozlišení místního Collectoru bez nutnosti párování.",
-    "Obnova chybějícího správního klíče pomocí configure-monitor.ps1 -RotateManagementKey bez výměny producer pověření.",
-    "Oprava souběžné inicializace SQLite při startu služeb. Zkontrolujte retenci a limit úložiště; čekající frontu nemažte.",
-    "Protokol správy 4, bez nové migrace dat proti 3.0.0. Před aktualizací zálohujte a koordinovaně aktualizujte všech pět komponent. Čistá VM, skutečná 5GB databáze a dlouhodobá zátěž zatím nebyly ověřeny."
+    "Monitor: zařazení zařízení zjednodušeno na Umístění, Typ, Skupiny a Štítky; role, systémy a kritičnost byly zrušeny.",
+    "Hromadná změna umístění, přetažení zařízení ve stromu navigace a Vrátit; štítky jako čipy s našeptáváním a jednotnou velikostí písmen.",
+    "Dynamické skupiny s vlastním pravidlem a živým náhledem; výchozí umístění nové instalace a skrytí úrovní s jedinou hodnotou.",
+    "Návrh Typu zařízení z Discovery a SNMP podle pravidel s potvrzením či zamítnutím; ručně potvrzený typ se nemění.",
+    "Migrace konfigurace (schéma 5 a 6) smaže role, systémy a kritičnost a může rozšířit dynamické skupiny a pohledy; po upgradu je zkontrolujte. Změny správního API jsou nekompatibilní.",
+    "Před aktualizací zálohujte a koordinovaně aktualizujte všech pět komponent. Ruční kontrola v čisté VM, tažení fyzickou myší a Discovery se skutečným SNMP zařízením zatím nebyly ověřeny."
   ]
 }
