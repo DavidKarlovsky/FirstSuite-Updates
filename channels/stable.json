@@ -2,15 +2,13 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.1.0",
-  "publishedAt": "2026-10-30T06:21:42Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.1.0",
+  "latestVersion": "3.2.0",
+  "publishedAt": "2026-10-30T19:16:20Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.2.0",
   "releaseNotes": [
-    "Monitor: zařazení zařízení zjednodušeno na Umístění, Typ, Skupiny a Štítky; role, systémy a kritičnost byly zrušeny.",
-    "Hromadná změna umístění, přetažení zařízení ve stromu navigace a Vrátit; štítky jako čipy s našeptáváním a jednotnou velikostí písmen.",
-    "Dynamické skupiny s vlastním pravidlem a živým náhledem; výchozí umístění nové instalace a skrytí úrovní s jedinou hodnotou.",
-    "Návrh Typu zařízení z Discovery a SNMP podle pravidel s potvrzením či zamítnutím; ručně potvrzený typ se nemění.",
-    "Migrace konfigurace (schéma 5 a 6) smaže role, systémy a kritičnost a může rozšířit dynamické skupiny a pohledy; po upgradu je zkontrolujte. Změny správního API jsou nekompatibilní.",
-    "Před aktualizací zálohujte a koordinovaně aktualizujte všech pět komponent. Ruční kontrola v čisté VM, tažení fyzickou myší a Discovery se skutečným SNMP zařízením zatím nebyly ověřeny."
+    "Nový instalátor WiX Toolset v7: hlavní instalátor EXE a samostatné MSI pro GPO/Intune; profily, cesty a služby beze změny.",
+    "Automatický přechod z instalací Inno Setup se zachováním konfigurace, klíčů a historie; při selhání se původní instalace zachová.",
+    "Tichá instalace s volbou profilu (PROFILE, ADDLOCAL, SYSLOGFIREWALL). Instalátor není podepsán certifikátem.",
+    "Ruční kontrola v čisté Windows VM neproběhla; vydání ověřily automatické brány. Před aktualizací zálohujte data."
   ]
 }
