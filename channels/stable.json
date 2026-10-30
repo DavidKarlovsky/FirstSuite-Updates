@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.2.0",
-  "publishedAt": "2026-10-30T19:16:20Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.2.0",
+  "latestVersion": "3.3.0",
+  "publishedAt": "2026-10-30T22:46:23Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.3.0",
   "releaseNotes": [
-    "Nový instalátor WiX Toolset v7: hlavní instalátor EXE a samostatné MSI pro GPO/Intune; profily, cesty a služby beze změny.",
-    "Automatický přechod z instalací Inno Setup se zachováním konfigurace, klíčů a historie; při selhání se původní instalace zachová.",
-    "Tichá instalace s volbou profilu (PROFILE, ADDLOCAL, SYSLOGFIREWALL). Instalátor není podepsán certifikátem.",
-    "Ruční kontrola v čisté Windows VM neproběhla; vydání ověřily automatické brány. Před aktualizací zálohujte data."
+    "Nová stránka Úložiště dat: přesun všech dat FirstSuite do jiné složky na místním disku NTFS, volitelně s prázdnou historií logů.",
+    "Přesun přes UAC s kontrolou kopie a návratem při chybě; původní data se mažou jen samostatnou potvrzenou akcí.",
+    "Nová instalace přijímá DATADIR; aktualizace z 3.2.0 ponechá data v ProgramData. Instalátor není podepsán certifikátem.",
+    "Ověřeno automatickými branami a scénáři ve Windows Sandboxu. Před přesunem dat zálohujte."
   ]
 }
