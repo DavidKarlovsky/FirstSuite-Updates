@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.5.0",
-  "publishedAt": "2026-10-31T20:30:33Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.5.0",
+  "latestVersion": "3.5.1",
+  "publishedAt": "2026-10-31T22:52:07Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.5.1",
   "releaseNotes": [
-    "Nový FirstSuite Agent 0.1.0: služba pro Windows, která sbírá inventář hardwaru a softwaru (programy, aktualizace, disky, síť) a odesílá jej do FirstSuite. Agent se instaluje samostatným MSI a registruje registračním tokenem.",
-    "V Console přibyla správa agentů (Inventář → Agenti): příjem agentů přes HTTPS, registrační tokeny, schvalování a v detailu položky záložky Hardware, Software, Aktualizace a Agent.",
-    "Seznam Inventáře se při větším měřítku obrazovky už nezmenšuje. Instalátory nejsou podepsány certifikátem."
+    "Oprava: v Console šlo znovu schválit čekajícího agenta (tlačítka v dialogu schválení nereagovala). Potvrzovací dotazy se vždy zobrazí nad dialogem.",
+    "Nový registrační token se sám zkopíruje do schránky celý a pod tokenem je tlačítko pro jeho zkopírování. Instalační skript agenta odmítne neúplný token.",
+    "FirstSuite Agent 0.1.1 zapisuje důvod neúspěšné registrace. Instalátory nejsou podepsány certifikátem."
   ]
 }
