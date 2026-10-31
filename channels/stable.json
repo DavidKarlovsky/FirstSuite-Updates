@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.4.1",
-  "publishedAt": "2026-10-31T16:43:04Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.4.1",
+  "latestVersion": "3.5.0",
+  "publishedAt": "2026-10-31T20:30:33Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.5.0",
   "releaseNotes": [
-    "Oprava: Server po upgradu na 3.4.0 nenaběhl, když převod úložiště metrik Monitoru trval déle než 30 sekund.",
-    "Převod nyní provádí jen služba Processing; Server mezitím běží, Monitor v Console ukazuje průběh migrace a po jejím dokončení se metriky zobrazí bez restartu.",
-    "Syslog, konfigurace a Discovery fungují i během migrace. Instalátor není podepsán certifikátem."
+    "Nový FirstSuite Agent 0.1.0: služba pro Windows, která sbírá inventář hardwaru a softwaru (programy, aktualizace, disky, síť) a odesílá jej do FirstSuite. Agent se instaluje samostatným MSI a registruje registračním tokenem.",
+    "V Console přibyla správa agentů (Inventář → Agenti): příjem agentů přes HTTPS, registrační tokeny, schvalování a v detailu položky záložky Hardware, Software, Aktualizace a Agent.",
+    "Seznam Inventáře se při větším měřítku obrazovky už nezmenšuje. Instalátory nejsou podepsány certifikátem."
   ]
 }
