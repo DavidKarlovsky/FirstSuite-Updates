@@ -2,13 +2,12 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.4.0",
-  "publishedAt": "2026-10-31T14:50:45Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.4.0",
+  "latestVersion": "3.4.1",
+  "publishedAt": "2026-10-31T16:43:04Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.4.1",
   "releaseNotes": [
-    "Zpracování Syslogu a Monitoru zapisuje v dávkách a stíhá i na běžném disku (HDD); Syslog se neztrácí ani při zahlcení.",
-    "Nové úložiště metrik Monitoru a denní oddíly Syslogu s retencí mazáním celých souborů.",
-    "Upgrade převede agregace metrik, podrobné vzorky z předchozí verze se nepřevádějí (zůstanou v monitor-metrics.v1.db).",
-    "Console ukazuje důvod zastaveného ukládání a trend fronty; nové SNMP kontroly mají interval 300 s. Instalátor není podepsán certifikátem."
+    "Oprava: Server po upgradu na 3.4.0 nenaběhl, když převod úložiště metrik Monitoru trval déle než 30 sekund.",
+    "Převod nyní provádí jen služba Processing; Server mezitím běží, Monitor v Console ukazuje průběh migrace a po jejím dokončení se metriky zobrazí bez restartu.",
+    "Syslog, konfigurace a Discovery fungují i během migrace. Instalátor není podepsán certifikátem."
   ]
 }
