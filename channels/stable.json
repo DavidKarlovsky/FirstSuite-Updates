@@ -2,12 +2,13 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.6.0",
-  "publishedAt": "2026-11-01T09:17:16Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.6.0",
+  "latestVersion": "3.7.0",
+  "publishedAt": "2026-11-01T15:13:58Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.7.0",
   "releaseNotes": [
-    "Správa agentů je nově v Infrastruktura → Agenti (instalace, registrační tokeny, příjem agentů); Inventář zobrazuje údaje o zařízení.",
-    "Inventář ukazuje přihlášeného uživatele: sloupec Uživatel v seznamu s hledáním a sekci Přihlášení uživatelé v detailu položky. Přehled má kartu Agenti.",
-    "Console a Server aktualizujte společně. FirstSuite Agent 0.1.2 je beze změny funkcí. Instalátory nejsou podepsány certifikátem."
+    "Console má plochou navigaci, společné kontextové nabídky tabulek, filtry hodnot, seskupení a export CSV; Monitor upravené členění a uložené pohledy.",
+    "Inventář zobrazuje operační systém, stav agenta a přehled Software podle programu a verze. Přehled nabízí proklikové dlaždice a tabulku závad.",
+    "Kontrola Agent v Monitoru sleduje dostupnost podle heartbeatu bez síťových dotazů. Agenti podporují hromadné schválení a prokliky do Inventáře a Monitoru.",
+    "Console a Server aktualizujte společně. FirstSuite Agent 0.1.3 je beze změny funkcí. Instalátory nejsou podepsány certifikátem."
   ]
 }
