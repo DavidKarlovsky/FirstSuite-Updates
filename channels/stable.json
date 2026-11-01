@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.5.1",
-  "publishedAt": "2026-10-31T22:52:07Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.5.1",
+  "latestVersion": "3.6.0",
+  "publishedAt": "2026-11-01T09:17:16Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.6.0",
   "releaseNotes": [
-    "Oprava: v Console šlo znovu schválit čekajícího agenta (tlačítka v dialogu schválení nereagovala). Potvrzovací dotazy se vždy zobrazí nad dialogem.",
-    "Nový registrační token se sám zkopíruje do schránky celý a pod tokenem je tlačítko pro jeho zkopírování. Instalační skript agenta odmítne neúplný token.",
-    "FirstSuite Agent 0.1.1 zapisuje důvod neúspěšné registrace. Instalátory nejsou podepsány certifikátem."
+    "Správa agentů je nově v Infrastruktura → Agenti (instalace, registrační tokeny, příjem agentů); Inventář zobrazuje údaje o zařízení.",
+    "Inventář ukazuje přihlášeného uživatele: sloupec Uživatel v seznamu s hledáním a sekci Přihlášení uživatelé v detailu položky. Přehled má kartu Agenti.",
+    "Console a Server aktualizujte společně. FirstSuite Agent 0.1.2 je beze změny funkcí. Instalátory nejsou podepsány certifikátem."
   ]
 }
