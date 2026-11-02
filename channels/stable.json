@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.7.0",
-  "publishedAt": "2026-11-01T15:13:58Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.7.0",
+  "latestVersion": "3.7.1",
+  "publishedAt": "2026-11-02T07:45:33Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.7.1",
   "releaseNotes": [
-    "Console má plochou navigaci, společné kontextové nabídky tabulek, filtry hodnot, seskupení a export CSV; Monitor upravené členění a uložené pohledy.",
-    "Inventář zobrazuje operační systém, stav agenta a přehled Software podle programu a verze. Přehled nabízí proklikové dlaždice a tabulku závad.",
-    "Kontrola Agent v Monitoru sleduje dostupnost podle heartbeatu bez síťových dotazů. Agenti podporují hromadné schválení a prokliky do Inventáře a Monitoru.",
-    "Console a Server aktualizujte společně. FirstSuite Agent 0.1.3 je beze změny funkcí. Instalátory nejsou podepsány certifikátem."
+    "Agenty lze z Console vzdáleně aktualizovat a odinstalovat: v Infrastruktura → Agenti se nahraje MSI agenta a akce jde provést pro jednu i více instalací.",
+    "Příkazy jsou podepsané serverem a agent před instalací ověří podpis, verzi a obsah balíčku. Po odinstalaci zůstává záznam instalace i propojení s Inventářem.",
+    "Monitor: přesun zařízení do typu, lokality nebo skupiny otevírá výběrový dialog s hledáním. Okno Kontroly a SNMP opět umožňuje přidat a upravit kontrolu.",
+    "Console a Server aktualizujte společně. FirstSuite Agent 0.2.0 je nutné jednou nainstalovat ručně. Instalátory nejsou podepsány certifikátem."
   ]
 }
