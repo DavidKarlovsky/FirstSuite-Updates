@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.8.1",
-  "publishedAt": "2026-11-04T06:50:34Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.8.1",
+  "latestVersion": "3.9.0",
+  "publishedAt": "2026-11-04T13:30:19Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.9.0",
   "releaseNotes": [
-    "Kritické stavy ze šablon SNMP (např. Dell iDRAC) se nově hlásí na Přehledu jako závady s důvodem.",
-    "Záložky Topologie, Systém a Inventář v detailu zařízení mají nový grafický vzhled se souhrnnými dlaždicemi.",
-    "FirstSuite Agent 0.3.1 je beze změny funkcí; aktualizace agentů není nutná.",
-    "Console a Server aktualizujte společně. Instalátory nejsou podepsány certifikátem."
+    "Nový modul Help: vzdálené sledování a ovládání pracovních stanic přes FirstSuite Agent, vždy se souhlasem uživatele stanice.",
+    "Technik se ověřuje účtem Windows (výchozí skupina Administrators) a každá relace se zapisuje do auditu Historie relací.",
+    "FirstSuite Agent 0.4.0 přidává vzdálenou podporu; politika remoteControl je ve výchozím stavu vypnutá.",
+    "Vývojová verze modulu bez end-to-end šifrování. Console a Server aktualizujte společně. Instalátory nejsou podepsány certifikátem."
   ]
 }
