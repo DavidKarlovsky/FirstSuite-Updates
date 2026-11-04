@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.8.0",
-  "publishedAt": "2026-11-04T01:08:25Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.8.0",
+  "latestVersion": "3.8.1",
+  "publishedAt": "2026-11-04T06:50:34Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.8.1",
   "releaseNotes": [
-    "Přehled rozlišuje výpadky a kritické stavy a u každé závady uvádí důvod; dlaždice Syslog ukazuje počet uložených událostí.",
-    "Nastavení kontrol je sjednocené na záložce Sledování v editoru zařízení; detail zařízení má nový grafický Souhrn a barevné stavy senzorů.",
-    "FirstSuite Agent 0.3.0 hlásí výpadek zhruba do 100 s díky samostatné živosti a nově sleduje stav disků, volné místo a čekající restart.",
-    "Výchozí limit úložiště Syslogu je 20 GiB, existující nastavení se zachová. Console a Server aktualizujte společně. Instalátory nejsou podepsány certifikátem."
+    "Kritické stavy ze šablon SNMP (např. Dell iDRAC) se nově hlásí na Přehledu jako závady s důvodem.",
+    "Záložky Topologie, Systém a Inventář v detailu zařízení mají nový grafický vzhled se souhrnnými dlaždicemi.",
+    "FirstSuite Agent 0.3.1 je beze změny funkcí; aktualizace agentů není nutná.",
+    "Console a Server aktualizujte společně. Instalátory nejsou podepsány certifikátem."
   ]
 }
