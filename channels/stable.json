@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.7.2",
-  "publishedAt": "2026-11-03T07:19:23Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.7.2",
+  "latestVersion": "3.8.0",
+  "publishedAt": "2026-11-04T01:08:25Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.8.0",
   "releaseNotes": [
-    "Opravena akce Inventáře Sledovat dostupnost v Monitoru (kontrola Agent): zařízení se nyní propojí s položkou agenta a kontrola Agent hlásí skutečnou dostupnost místo falešného výpadku.",
-    "Pokud zařízení se stejnou adresou už existuje, i archivované, Console nabídne jeho propojení. Akce ukazuje průběh a výsledek a funguje i hned po schválení agenta.",
-    "Monitor: nová SNMP šablona Dell iDRAC a zachování metadat metrik ze šablon v SNMP průvodci.",
-    "Console a Server aktualizujte společně. FirstSuite Agent 0.2.1 je bez funkčních změn. Instalátory nejsou podepsány certifikátem."
+    "Přehled rozlišuje výpadky a kritické stavy a u každé závady uvádí důvod; dlaždice Syslog ukazuje počet uložených událostí.",
+    "Nastavení kontrol je sjednocené na záložce Sledování v editoru zařízení; detail zařízení má nový grafický Souhrn a barevné stavy senzorů.",
+    "FirstSuite Agent 0.3.0 hlásí výpadek zhruba do 100 s díky samostatné živosti a nově sleduje stav disků, volné místo a čekající restart.",
+    "Výchozí limit úložiště Syslogu je 20 GiB, existující nastavení se zachová. Console a Server aktualizujte společně. Instalátory nejsou podepsány certifikátem."
   ]
 }
