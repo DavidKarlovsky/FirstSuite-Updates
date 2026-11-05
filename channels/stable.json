@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.10.0",
-  "publishedAt": "2026-11-05T05:15:05Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.10.0",
+  "latestVersion": "3.11.0",
+  "publishedAt": "2026-11-05T11:12:04Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.11.0",
   "releaseNotes": [
-    "Help rozlišuje stanice s uživatelem (vždy souhlas, pruh nahoře) a bezobslužné počítače (bez souhlasu, heslo technika, indikátor v rohu) a funguje i na zamykací obrazovce a u UAC.",
-    "Výběr monitoru, Ctrl+Alt+Del, oprávnění pro skupiny i uživatele a klíč Unattended spravovaný z Console.",
-    "FirstSuite Agent 0.5.0 nabízí v instalátoru volbu typu vzdálené podpory. Console otevírá Vzdálenou plochu na servery.",
-    "Server, Console a agenty aktualizujte současně. Ruční kontrola ve VM byla vynechána. Instalátory nejsou podepsány certifikátem."
+    "Monitor a Syslog zapisují data z paměti po intervalech (120 s / 30 s) a výrazně méně zatěžují běžný pevný disk (HDD); incidenty se vyhodnocují okamžitě.",
+    "Instalátor přidá výjimku Microsoft Defenderu pro složku dat FirstSuite (volitelné, výchozí zapnuto); stav výjimky je v nastavení úložiště.",
+    "Grafy a Syslog v Console se mohou zobrazit se zpožděním nejvýše o interval zápisu.",
+    "Ruční kontrola ve VM byla vynechána. Instalátory nejsou podepsány certifikátem."
   ]
 }
