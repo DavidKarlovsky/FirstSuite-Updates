@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.11.0",
-  "publishedAt": "2026-11-05T11:12:04Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.11.0",
+  "latestVersion": "3.12.0",
+  "publishedAt": "2026-11-05T21:21:41Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.12.0",
   "releaseNotes": [
-    "Monitor a Syslog zapisují data z paměti po intervalech (120 s / 30 s) a výrazně méně zatěžují běžný pevný disk (HDD); incidenty se vyhodnocují okamžitě.",
-    "Instalátor přidá výjimku Microsoft Defenderu pro složku dat FirstSuite (volitelné, výchozí zapnuto); stav výjimky je v nastavení úložiště.",
-    "Grafy a Syslog v Console se mohou zobrazit se zpožděním nejvýše o interval zápisu.",
+    "Monitor: síťové porty mají důležitost Kritický / Sledovaný / Informativní; incident vzniká jen u kritických a sledovaných portů. Po upgradu jsou všechny porty Informativní.",
+    "Help: souhlas se zobrazí v relaci přihlášeného uživatele (i přes Vzdálenou plochu); u bezobslužných stanic lze vybrat relaci. Vyžaduje agenta 0.6.0.",
+    "Opravy: Přehled se při obnově neposouvá, filtr metody Agent v Monitoru, retence Monitoru v Nastavení se načítá ze Serveru.",
     "Ruční kontrola ve VM byla vynechána. Instalátory nejsou podepsány certifikátem."
   ]
 }
