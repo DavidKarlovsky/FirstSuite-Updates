@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.12.1",
-  "publishedAt": "2026-11-06T06:28:41Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.12.1",
+  "latestVersion": "3.13.0",
+  "publishedAt": "2026-11-06T19:37:13Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.13.0",
   "releaseNotes": [
-    "Agent 0.6.1: vzdálená aktualizace ukládá instalační balíček pod publikovaným názvem, takže pozdější ruční oprava nebo změna typu vzdálené podpory ze staženého MSI už nekončí chybou 1603.",
+    "Instalační balíček agenta: Console uloží ZIP s MSI a registračním tokenem, volitelně jej lze zveřejnit ke stažení přes agentní HTTPS listener. Agent 0.7.0 načte token ze souboru vedle MSI; instalace čeká na schválení.",
     "Ruční kontrola ve VM neproběhla. Instalátory nejsou podepsány certifikátem."
   ]
 }
