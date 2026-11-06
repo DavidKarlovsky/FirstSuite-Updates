@@ -2,13 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.12.0",
-  "publishedAt": "2026-11-05T21:21:41Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.12.0",
+  "latestVersion": "3.12.1",
+  "publishedAt": "2026-11-06T06:28:41Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.12.1",
   "releaseNotes": [
-    "Monitor: síťové porty mají důležitost Kritický / Sledovaný / Informativní; incident vzniká jen u kritických a sledovaných portů. Po upgradu jsou všechny porty Informativní.",
-    "Help: souhlas se zobrazí v relaci přihlášeného uživatele (i přes Vzdálenou plochu); u bezobslužných stanic lze vybrat relaci. Vyžaduje agenta 0.6.0.",
-    "Opravy: Přehled se při obnově neposouvá, filtr metody Agent v Monitoru, retence Monitoru v Nastavení se načítá ze Serveru.",
-    "Ruční kontrola ve VM byla vynechána. Instalátory nejsou podepsány certifikátem."
+    "Agent 0.6.1: vzdálená aktualizace ukládá instalační balíček pod publikovaným názvem, takže pozdější ruční oprava nebo změna typu vzdálené podpory ze staženého MSI už nekončí chybou 1603.",
+    "Ruční kontrola ve VM neproběhla. Instalátory nejsou podepsány certifikátem."
   ]
 }
