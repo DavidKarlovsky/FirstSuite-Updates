@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.13.0",
-  "publishedAt": "2026-11-06T19:37:13Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.13.0",
+  "latestVersion": "3.13.1",
+  "publishedAt": "2026-11-07T08:32:11Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.13.1",
   "releaseNotes": [
-    "Instalační balíček agenta: Console uloží ZIP s MSI a registračním tokenem, volitelně jej lze zveřejnit ke stažení přes agentní HTTPS listener. Agent 0.7.0 načte token ze souboru vedle MSI; instalace čeká na schválení.",
+    "Oprava trvalého dohánění fronty Monitoru na HDD: data agentů už nevynucují častý zápis na disk a konfigurace se zapisuje jednou za interval místo u každé dávky. Agent 0.7.1 beze změny funkcí.",
     "Ruční kontrola ve VM neproběhla. Instalátory nejsou podepsány certifikátem."
   ]
 }
