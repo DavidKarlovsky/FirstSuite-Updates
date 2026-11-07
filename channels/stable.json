@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.13.1",
-  "publishedAt": "2026-11-07T08:32:11Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.13.1",
+  "latestVersion": "3.14.0",
+  "publishedAt": "2026-11-07T18:04:31Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.14.0",
   "releaseNotes": [
-    "Oprava trvalého dohánění fronty Monitoru na HDD: data agentů už nevynucují častý zápis na disk a konfigurace se zapisuje jednou za interval místo u každé dávky. Agent 0.7.1 beze změny funkcí.",
-    "Ruční kontrola ve VM neproběhla. Instalátory nejsou podepsány certifikátem."
+    "Inventář načítá počítače z Active Directory (jen čtení) a ukazuje jejich pokrytí agentem s exportem pro nasazení. Console má jednotný vzhled záložek a panelů; výběr řádků už neposouvá tabulku.",
+    "Ruční kontrola ve VM neproběhla; synchronizace proti skutečnému AD není ověřena. Instalátory nejsou podepsány certifikátem."
   ]
 }
