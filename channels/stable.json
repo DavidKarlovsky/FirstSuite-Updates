@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.15.0",
-  "publishedAt": "2026-11-08T12:58:53Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.15.0",
+  "latestVersion": "3.15.1",
+  "publishedAt": "2026-11-08T18:38:40Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.15.1",
   "releaseNotes": [
-    "Nový modul Log: agent hlásí přihlášení, neúspěšné pokusy o přihlášení, nálezy Defenderu a podezřelou zápisovou aktivitu na disk; Console ukazuje události, kdo je kde přihlášen a bezpečnostní alarmy. Nové notifikace e-mailem a do Teams s umlčením a údržbovými okny. Zařízení z Inventáře lze hromadně nebo pravidlem zařadit do Monitoru.",
-    "Události řadiče domény a skutečné doručení e-mailu a do Teams nejsou ověřeny v ostrém prostředí. Instalátory nejsou podepsány certifikátem."
+    "Opravy modulu Log: mapa přihlášení a nastavení Logu fungují i na počítačích s agentem aktualizovaným ze starší verze, počítače z Active Directory dostávají organizaci, méně falešných poplachů zápisové aktivity (vestavěné výjimky procesů Windows), uzamčení účtu jako kritický alarm. Celé nastavení Logu je v Nastavení → Log, odchylky jednoho počítače zvlášť. Opakovaná registrace agenta už nevytváří duplicitní čekající záznamy.",
+    "Nasazení přes GPO v doméně a události řadiče domény nejsou ověřeny v ostrém prostředí. Instalátory nejsou podepsány certifikátem."
   ]
 }
