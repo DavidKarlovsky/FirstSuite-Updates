@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.14.1",
-  "publishedAt": "2026-11-07T20:06:43Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.14.1",
+  "latestVersion": "3.15.0",
+  "publishedAt": "2026-11-08T12:58:53Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.15.0",
   "releaseNotes": [
-    "Oprava synchronizace Active Directory na skutečné doméně (odkazy LDAP, identifikátory počítačů, vadné záznamy, znovu vytvořené počítače) s konkrétními chybovými hláškami. Inventář a Syslog mají jednotný nový vzhled.",
-    "Ruční kontrola ve VM neproběhla; synchronizace proti skutečnému AD není ověřena. Instalátory nejsou podepsány certifikátem."
+    "Nový modul Log: agent hlásí přihlášení, neúspěšné pokusy o přihlášení, nálezy Defenderu a podezřelou zápisovou aktivitu na disk; Console ukazuje události, kdo je kde přihlášen a bezpečnostní alarmy. Nové notifikace e-mailem a do Teams s umlčením a údržbovými okny. Zařízení z Inventáře lze hromadně nebo pravidlem zařadit do Monitoru.",
+    "Události řadiče domény a skutečné doručení e-mailu a do Teams nejsou ověřeny v ostrém prostředí. Instalátory nejsou podepsány certifikátem."
   ]
 }
