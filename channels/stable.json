@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.15.1",
-  "publishedAt": "2026-11-08T18:38:40Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.15.1",
+  "latestVersion": "3.16.0",
+  "publishedAt": "2026-11-10T17:31:19Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.16.0",
   "releaseNotes": [
-    "Opravy modulu Log: mapa přihlášení a nastavení Logu fungují i na počítačích s agentem aktualizovaným ze starší verze, počítače z Active Directory dostávají organizaci, méně falešných poplachů zápisové aktivity (vestavěné výjimky procesů Windows), uzamčení účtu jako kritický alarm. Celé nastavení Logu je v Nastavení → Log, odchylky jednoho počítače zvlášť. Opakovaná registrace agenta už nevytváří duplicitní čekající záznamy.",
-    "Nasazení přes GPO v doméně a události řadiče domény nejsou ověřeny v ostrém prostředí. Instalátory nejsou podepsány certifikátem."
+    "Menší zátěž disku: Processing zapisuje stav kontrol a incidenty do několika sekund malou transakcí a historii Monitoru po 5 minutách, Collector posílá běžné výsledky v dávkách a po výpadku dohání frontu hromadně. Opraveno mizení varování v přehledu Monitoru (zařízení krátce přecházela do stavu Bez aktuálních dat). Help přenáší stav Num Lock, Caps Lock a Scroll Lock klávesnice technika (vyžaduje agenta 0.9.0).",
+    "Chování na pomalém HDD a Num Lock na skutečné vzdálené stanici nejsou ověřeny v ostrém provozu. Instalátory nejsou podepsány certifikátem."
   ]
 }
