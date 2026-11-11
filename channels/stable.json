@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.17.0",
-  "publishedAt": "2026-11-10T21:46:56Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.17.0",
+  "latestVersion": "3.18.0",
+  "publishedAt": "2026-11-11T06:08:47Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.18.0",
   "releaseNotes": [
-    "Console: organizace, lokalita a síťový prostor se vybírají jedním polem Umístění se třemi nezávislými sloupci, hledáním, naposledy použitými umístěními a založením nové položky přímo v panelu (editor zařízení, IP Discovery, hromadná úprava, Inventář). Stromy mají ikony druhu položky a počet zařízení jako odznak.",
+    "Monitor: přehlednější Členění – ikony druhu a samotné názvy místo „Lokalita · název“, počty jako odznaky a filtr stromu. Help: hledání stanic a relací. Syslog: nové vyhledávací pole, hledání podle času včetně hodin a minut, tlačítko Zrušit filtry a odznaky aktivních filtrů.",
     "Ruční kontrola GUI v čisté Windows VM byla vynechána. Instalátory nejsou podepsány certifikátem."
   ]
 }
