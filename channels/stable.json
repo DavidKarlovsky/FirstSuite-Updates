@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.18.0",
-  "publishedAt": "2026-11-11T06:08:47Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.18.0",
+  "latestVersion": "3.19.0",
+  "publishedAt": "2026-11-12T08:00:53Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.19.0",
   "releaseNotes": [
-    "Monitor: přehlednější Členění – ikony druhu a samotné názvy místo „Lokalita · název“, počty jako odznaky a filtr stromu. Help: hledání stanic a relací. Syslog: nové vyhledávací pole, hledání podle času včetně hodin a minut, tlačítko Zrušit filtry a odznaky aktivních filtrů.",
+    "Monitor: důležitost kontroly Agent (Kritický / Sledovaný / Informativní, výchozí Automaticky podle typu OS) – vypnutá pracovní stanice je „Mimo provoz“ bez incidentu a notifikace, server zůstává kritický. Inventář: tabulka po zavření detailu zachová pozici a výběr.",
     "Ruční kontrola GUI v čisté Windows VM byla vynechána. Instalátory nejsou podepsány certifikátem."
   ]
 }
