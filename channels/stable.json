@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.19.0",
-  "publishedAt": "2026-11-12T08:00:53Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.19.0",
+  "latestVersion": "3.20.0",
+  "publishedAt": "2026-11-13T10:26:24Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.20.0",
   "releaseNotes": [
-    "Monitor: důležitost kontroly Agent (Kritický / Sledovaný / Informativní, výchozí Automaticky podle typu OS) – vypnutá pracovní stanice je „Mimo provoz“ bez incidentu a notifikace, server zůstává kritický. Inventář: tabulka po zavření detailu zachová pozici a výběr.",
-    "Ruční kontrola GUI v čisté Windows VM byla vynechána. Instalátory nejsou podepsány certifikátem."
+    "Monitor: důležitost (Kritický / Sledovaný / Informativní) má každá kontrola a výchozí hodnota se řídí typem zařízení – vypnutá stanice sledovaná přes ICMP je „Mimo provoz“ bez incidentu. Nastavení → Číselníky s typy zařízení a jejich výchozí důležitostí. Inventář: typ, umístění a štítky sdílené s Monitorem, panel Členění se stromem, přetahování a hromadná úprava klasifikace.",
+    "Upgrade je nevratný a zahodí text typu a umístění, který se neshoduje s číselníkem; před upgradem zálohujte databáze. Ruční kontrola Console v čisté Windows VM byla vynechána. Instalátory nejsou podepsány certifikátem."
   ]
 }
