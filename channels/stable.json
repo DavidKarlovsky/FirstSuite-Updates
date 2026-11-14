@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.20.0",
-  "publishedAt": "2026-11-13T10:26:24Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.20.0",
+  "latestVersion": "3.21.0",
+  "publishedAt": "2026-11-14T07:26:30Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.21.0",
   "releaseNotes": [
-    "Monitor: důležitost (Kritický / Sledovaný / Informativní) má každá kontrola a výchozí hodnota se řídí typem zařízení – vypnutá stanice sledovaná přes ICMP je „Mimo provoz“ bez incidentu. Nastavení → Číselníky s typy zařízení a jejich výchozí důležitostí. Inventář: typ, umístění a štítky sdílené s Monitorem, panel Členění se stromem, přetahování a hromadná úprava klasifikace.",
-    "Upgrade je nevratný a zahodí text typu a umístění, který se neshoduje s číselníkem; před upgradem zálohujte databáze. Ruční kontrola Console v čisté Windows VM byla vynechána. Instalátory nejsou podepsány certifikátem."
+    "Agent: komunikace přes brány v Kolektorech, kterých může být v síti více. Agent 0.10.0 umí více cílů s vlastními piny; nový seznam cílů podepsaný serverem začne používat až po prvním úspěšném spojení, takže při změně adresy neuvízne. Bránu Kolektoru schvaluje správce v Console (Infrastruktura → Agenti → Brány a cíle) a určuje, pro které lokality platí.",
+    "Databáze agentů přejde na nové schéma; před upgradem zálohujte databáze a aktualizujte všechny komponenty společně. Ruční kontrola Console v čisté Windows VM byla vynechána. Instalátory nejsou podepsány certifikátem."
   ]
 }
