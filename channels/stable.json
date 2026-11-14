@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.21.0",
-  "publishedAt": "2026-11-14T07:26:30Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.21.0",
+  "latestVersion": "3.22.0",
+  "publishedAt": "2026-11-14T12:22:29Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.22.0",
   "releaseNotes": [
-    "Agent: komunikace přes brány v Kolektorech, kterých může být v síti více. Agent 0.10.0 umí více cílů s vlastními piny; nový seznam cílů podepsaný serverem začne používat až po prvním úspěšném spojení, takže při změně adresy neuvízne. Bránu Kolektoru schvaluje správce v Console (Infrastruktura → Agenti → Brány a cíle) a určuje, pro které lokality platí.",
-    "Databáze agentů přejde na nové schéma; před upgradem zálohujte databáze a aktualizujte všechny komponenty společně. Ruční kontrola Console v čisté Windows VM byla vynechána. Instalátory nejsou podepsány certifikátem."
+    "Přesun serveru na jiný počítač: příkaz migration export a import přenese data i klíče serveru, agenti na nový stroj přejdou sami a starý stroj jim jako rozcestník předává novou adresu. Agent 0.10.1 nevyžádá novou registraci kvůli odmítnutí jedním cílem. Instalátor: odebrání přes průvodce už nekončí chybou o výběru komponenty.",
+    "Starší verzi odinstalujete průvodcem až po upgradu na 3.22.0. Kolektor na jiném stroji zatím nelze k serveru připojit. Ruční kontrola průvodce instalátoru a Console byla vynechána. Instalátory nejsou podepsány certifikátem."
   ]
 }
