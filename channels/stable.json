@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.22.0",
-  "publishedAt": "2026-11-14T12:22:29Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.22.0",
+  "latestVersion": "3.22.1",
+  "publishedAt": "2026-11-14T15:00:55Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.22.1",
   "releaseNotes": [
-    "Přesun serveru na jiný počítač: příkaz migration export a import přenese data i klíče serveru, agenti na nový stroj přejdou sami a starý stroj jim jako rozcestník předává novou adresu. Agent 0.10.1 nevyžádá novou registraci kvůli odmítnutí jedním cílem. Instalátor: odebrání přes průvodce už nekončí chybou o výběru komponenty.",
-    "Starší verzi odinstalujete průvodcem až po upgradu na 3.22.0. Kolektor na jiném stroji zatím nelze k serveru připojit. Ruční kontrola průvodce instalátoru a Console byla vynechána. Instalátory nejsou podepsány certifikátem."
+    "Oprava: služby FirstSuite se už nezastaví kvůli chybě zápisu do protokolu událostí Windows. Dříve se mohl Kolektor krátce po čisté instalaci sám vypnout a zůstat zastavený. Instalátor nově připravuje zdroje protokolu událostí předem.",
+    "Po upgradu ověřte, že běží všechny služby FirstSuite. Automatická obnova služeb po neočekávaném ukončení zatím není. Instalátory nejsou podepsány certifikátem."
   ]
 }
