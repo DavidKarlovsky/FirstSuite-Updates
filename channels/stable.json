@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "3.22.1",
-  "publishedAt": "2026-11-14T15:00:55Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v3.22.1",
+  "latestVersion": "4.0.0",
+  "publishedAt": "2026-11-15T14:36:50Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.0.0",
   "releaseNotes": [
-    "Oprava: služby FirstSuite se už nezastaví kvůli chybě zápisu do protokolu událostí Windows. Dříve se mohl Kolektor krátce po čisté instalaci sám vypnout a zůstat zastavený. Instalátor nově připravuje zdroje protokolu událostí předem.",
-    "Po upgradu ověřte, že běží všechny služby FirstSuite. Automatická obnova služeb po neočekávaném ukončení zatím není. Instalátory nejsou podepsány certifikátem."
+    "Sjednocená architektura: zařízení a agenti komunikují jen s Collectorem, Collector jedním šifrovaným kanálem se serverem. Server má tři služby (Collector, Processing, Server), služby se po pádu samy obnoví, další Collectory se připojují kódem z Console a přesun serveru vede agenty přes Collector.",
+    "Po upgradu serveru nainstalujte na stanice agenta 0.11.0 z nového instalačního balíčku; starší agenti ztratí spojení. Instalátory nejsou podepsány certifikátem."
   ]
 }
