@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "4.0.0",
-  "publishedAt": "2026-11-15T14:36:50Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.0.0",
+  "latestVersion": "4.1.0",
+  "publishedAt": "2026-11-16T20:27:30Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.1.0",
   "releaseNotes": [
-    "Sjednocená architektura: zařízení a agenti komunikují jen s Collectorem, Collector jedním šifrovaným kanálem se serverem. Server má tři služby (Collector, Processing, Server), služby se po pádu samy obnoví, další Collectory se připojují kódem z Console a přesun serveru vede agenty přes Collector.",
-    "Po upgradu serveru nainstalujte na stanice agenta 0.11.0 z nového instalačního balíčku; starší agenti ztratí spojení. Instalátory nejsou podepsány certifikátem."
+    "Vzdálená instalace agenta z Console na doménové počítače (WinRM nebo WMI, předběžná kontrola každého počítače, ruční schválení registrace). Agent 0.12.0: upgrade ani oprava už znovu neregistrují schváleného agenta; novou registraci vynutí jen REENROLL=1.",
+    "Vzdálená instalace nebyla ověřena ve skutečné doméně. Instalátory nejsou podepsány certifikátem."
   ]
 }
