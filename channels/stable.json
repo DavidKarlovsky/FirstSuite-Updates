@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "4.2.0",
-  "publishedAt": "2026-11-18T00:31:20Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.2.0",
+  "latestVersion": "4.2.1",
+  "publishedAt": "2026-11-19T15:22:27Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.2.1",
   "releaseNotes": [
-    "Collector předává Syslog i výsledky Monitoru pod aktuální registrovanou identitou; Collector zablokovaný na 4.1.0 chybou 401 se po upgradu odblokuje sám. Console má jedno okno Nastavení Collectoru a při obnovování dat zachovává výběr i rozpracované úpravy.",
-    "Agent 0.12.1 je bez funkčních změn. Instalátory nejsou podepsány certifikátem."
+    "Console přepíná mezi stránkami výrazně rychleji: tabulka Inventáře už nestaví všechny řádky najednou a stránky načítají data souběžně. Vybrané řádky jsou lépe vidět a seznam v dialogu brány agentů je čitelný.",
+    "Agent 0.12.2 je bez funkčních změn. Instalátory nejsou podepsány certifikátem."
   ]
 }
