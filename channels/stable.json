@@ -2,11 +2,12 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "4.2.1",
-  "publishedAt": "2026-11-19T15:22:27Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.2.1",
+  "latestVersion": "4.3.0",
+  "publishedAt": "2026-11-20T03:19:15Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.3.0",
   "releaseNotes": [
-    "Console přepíná mezi stránkami výrazně rychleji: tabulka Inventáře už nestaví všechny řádky najednou a stránky načítají data souběžně. Vybrané řádky jsou lépe vidět a seznam v dialogu brány agentů je čitelný.",
-    "Agent 0.12.2 je bez funkčních změn. Instalátory nejsou podepsány certifikátem."
+    "Console má nový vzhled: Dashboard dohledu, plný detail zařízení v Inventáři, přehlednější Monitor, Log, Syslog a Agenti s vlastními ikonami a sbalitelnými panely.",
+    "Nastavení → Úložiště a retence ukazuje, proč se historie neukládá, a před změnou pravidel zobrazí dopad bez mazání.",
+    "Agent 0.12.3 je bez funkčních změn. Instalátory nejsou podepsány certifikátem."
   ]
 }
