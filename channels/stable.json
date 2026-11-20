@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "4.3.0",
-  "publishedAt": "2026-11-20T03:19:15Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.3.0",
+  "latestVersion": "4.3.1",
+  "publishedAt": "2026-11-20T21:38:37Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.3.1",
   "releaseNotes": [
-    "Console má nový vzhled: Dashboard dohledu, plný detail zařízení v Inventáři, přehlednější Monitor, Log, Syslog a Agenti s vlastními ikonami a sbalitelnými panely.",
-    "Nastavení → Úložiště a retence ukazuje, proč se historie neukládá, a před změnou pravidel zobrazí dopad bez mazání.",
-    "Agent 0.12.3 je bez funkčních změn. Instalátory nejsou podepsány certifikátem."
+    "Detail zařízení v Monitoru se otevírá přímo na stránce Monitoru a má nový vzhled: porty a senzory s grafem přímo v detailu, záložka Grafy místo samostatného okna a připnuté grafy na Přehledu.",
+    "Dashboard bez nastaveného přístupu k Monitoru ukazuje neutrální výzvu místo chyby.",
+    "Agent 0.12.4 je bez funkčních změn. Instalátory nejsou podepsány certifikátem."
   ]
 }
