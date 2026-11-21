@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "4.3.2",
-  "publishedAt": "2026-11-21T10:15:22Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.3.2",
+  "latestVersion": "4.3.3",
+  "publishedAt": "2026-11-21T19:21:54Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.3.3",
   "releaseNotes": [
-    "Záložky detailu zařízení v Monitoru (Porty, Senzory a další) už při pomalé odpovědi Serveru nezůstanou prázdné: ukazují načítání a při vypršení času nabídnou Zkusit znovu.",
-    "Agent 0.12.5 je bez funkčních změn. Instalátory nejsou podepsány certifikátem."
+    "Detail velkého zařízení v Monitoru (Porty, Senzory) se načítá výrazně rychleji a stránky Monitor a Agenti se rychleji otevírají. Console a Server aktualizujte společně.",
+    "Agent 0.12.6 je bez funkčních změn. Instalátory nejsou podepsány certifikátem."
   ]
 }
