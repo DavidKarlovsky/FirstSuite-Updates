@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "4.3.3",
-  "publishedAt": "2026-11-21T19:21:54Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.3.3",
+  "latestVersion": "4.4.0",
+  "publishedAt": "2026-11-22T16:38:40Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.4.0",
   "releaseNotes": [
-    "Detail velkého zařízení v Monitoru (Porty, Senzory) se načítá výrazně rychleji a stránky Monitor a Agenti se rychleji otevírají. Console a Server aktualizujte společně.",
-    "Agent 0.12.6 je bez funkčních změn. Instalátory nejsou podepsány certifikátem."
+    "Agent oznámí řádné vypnutí nebo restart počítače; kontrola Agent pak 15 minut nehlásí závadu. Vzdálené Collectory se při přesunu serveru přepojí automaticky. Console ukazuje obnovu služeb po selhání a lépe využívá malé plochy.",
+    "Agent 0.13.0 je potřeba pro oznámení vypnutí. Instalátory nejsou podepsány certifikátem."
   ]
 }
