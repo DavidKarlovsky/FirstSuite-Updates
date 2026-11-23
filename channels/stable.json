@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "4.4.2",
-  "publishedAt": "2026-11-23T08:51:09Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.4.2",
+  "latestVersion": "4.4.3",
+  "publishedAt": "2026-11-23T18:52:35Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.4.3",
   "releaseNotes": [
-    "Agent už nehlásí čekající restart kvůli samotnému mazání souborů po aktualizacích. Přehled ukazuje u zařízení horší závažnost a řadí otevřené závady podle závažnosti a trvání.",
-    "Agent 0.13.2 je potřeba pro opravu na stanicích. Instalátory nejsou podepsány certifikátem."
+    "Důležitost portu v Monitoru lze nastavit pravým tlačítkem na port, pro jeden i více portů. Tlačítka detailu portu a senzoru jsou nad grafem.",
+    "Agent 0.13.3 je beze změn funkcí. Instalátory nejsou podepsány certifikátem."
   ]
 }
