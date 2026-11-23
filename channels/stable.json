@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "4.4.1",
-  "publishedAt": "2026-11-22T20:27:23Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.4.1",
+  "latestVersion": "4.4.2",
+  "publishedAt": "2026-11-23T08:51:09Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.4.2",
   "releaseNotes": [
-    "Vzdálená podpora (Help): zaseknutá relace se ukončí v omezeném čase a stanice přijme další připojení bez restartu služby agenta.",
-    "Agent 0.13.1 je potřeba pro opravu na stanicích. Instalátory nejsou podepsány certifikátem."
+    "Agent už nehlásí čekající restart kvůli samotnému mazání souborů po aktualizacích. Přehled ukazuje u zařízení horší závažnost a řadí otevřené závady podle závažnosti a trvání.",
+    "Agent 0.13.2 je potřeba pro opravu na stanicích. Instalátory nejsou podepsány certifikátem."
   ]
 }
