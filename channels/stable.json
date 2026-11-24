@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "4.4.3",
-  "publishedAt": "2026-11-23T18:52:35Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.4.3",
+  "latestVersion": "4.5.0",
+  "publishedAt": "2026-11-24T06:57:25Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.5.0",
   "releaseNotes": [
-    "Důležitost portu v Monitoru lze nastavit pravým tlačítkem na port, pro jeden i více portů. Tlačítka detailu portu a senzoru jsou nad grafem.",
-    "Agent 0.13.3 je beze změn funkcí. Instalátory nejsou podepsány certifikátem."
+    "Stránky Help a Collectory mají nový vzhled jako ostatní moduly: hledání, filtry podle stavu, řazení, volbu sloupců a boční detail. Stanice v Help lze filtrovat a seskupit podle lokality.",
+    "Agent 0.13.4 je beze změn funkcí. Instalátory nejsou podepsány certifikátem."
   ]
 }
