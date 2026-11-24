@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "4.5.0",
-  "publishedAt": "2026-11-24T06:57:25Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.5.0",
+  "latestVersion": "4.5.1",
+  "publishedAt": "2026-11-24T13:19:27Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.5.1",
   "releaseNotes": [
-    "Stránky Help a Collectory mají nový vzhled jako ostatní moduly: hledání, filtry podle stavu, řazení, volbu sloupců a boční detail. Stanice v Help lze filtrovat a seskupit podle lokality.",
-    "Agent 0.13.4 je beze změn funkcí. Instalátory nejsou podepsány certifikátem."
+    "Čip Nelze připojit v modulu Help nově zobrazí stanice, ke kterým se nelze připojit, s důvodem a postupem nápravy. Tlačítko Zrušit filtry vrátí úplný seznam jedním kliknutím.",
+    "Agent 0.13.5 je beze změn funkcí. Instalátory nejsou podepsány certifikátem."
   ]
 }
