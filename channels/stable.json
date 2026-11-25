@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "4.5.1",
-  "publishedAt": "2026-11-24T13:19:27Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.5.1",
+  "latestVersion": "4.6.0",
+  "publishedAt": "2026-11-25T00:32:31Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.6.0",
   "releaseNotes": [
-    "Čip Nelze připojit v modulu Help nově zobrazí stanice, ke kterým se nelze připojit, s důvodem a postupem nápravy. Tlačítko Zrušit filtry vrátí úplný seznam jedním kliknutím.",
-    "Agent 0.13.5 je beze změn funkcí. Instalátory nejsou podepsány certifikátem."
+    "Inventář má nové části Hardware, Software, Nálezy a Změny: přehledy hardwaru a verzí softwaru napříč stanicemi, katalog produktů, pravidla s nálezy a notifikacemi a přehled změn na stanicích.",
+    "Agent 0.14.0 sbírá navíc paměťové sloty, grafiku, TPM, Secure Boot, BitLocker a údaje Office; nejdřív aktualizujte Server, potom agenty. Instalátory nejsou podepsány certifikátem."
   ]
 }
