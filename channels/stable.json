@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "4.6.1",
-  "publishedAt": "2026-11-25T11:52:19Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.6.1",
+  "latestVersion": "4.6.2",
+  "publishedAt": "2026-11-25T15:35:38Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.6.2",
   "releaseNotes": [
-    "Tlačítka v Console mají ikony a odznaky s počtem v přepínači částí Inventáře jsou vystředěné s textem.",
-    "Agent 0.14.1 je beze změn funkcí. Instalátory nejsou podepsány certifikátem."
+    "Ikony mají nově i tlačítka v Agentech, Logu, Helpu, Notifikacích, Kolektorech a ve společných dialozích.",
+    "Agent 0.14.2 je beze změn funkcí. Instalátory nejsou podepsány certifikátem."
   ]
 }
