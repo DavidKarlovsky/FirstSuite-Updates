@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "4.6.2",
-  "publishedAt": "2026-11-25T15:35:38Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.6.2",
+  "latestVersion": "4.7.0",
+  "publishedAt": "2026-11-26T11:56:34Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.7.0",
   "releaseNotes": [
-    "Ikony mají nově i tlačítka v Agentech, Logu, Helpu, Notifikacích, Kolektorech a ve společných dialozích.",
-    "Agent 0.14.2 je beze změn funkcí. Instalátory nejsou podepsány certifikátem."
+    "Nový IPAM: evidence podsítí a VLAN, obsazenost a stav každé IP adresy s MAC, zařízením a portem, ruční rezervace a export CSV. Historie MAC/IP má vlastní retenci (výchozí 30 dní).",
+    "Agent 0.15.0 čte zápůjčky a rozsahy z Windows DHCP, Collector umí volitelný sken tichých zařízení; nejdřív aktualizujte Server, potom agenty. Instalátory nejsou podepsány certifikátem."
   ]
 }
