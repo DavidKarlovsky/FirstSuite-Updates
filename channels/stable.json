@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "4.7.0",
-  "publishedAt": "2026-11-26T11:56:34Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.7.0",
+  "latestVersion": "4.7.1",
+  "publishedAt": "2026-11-26T14:07:38Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.7.1",
   "releaseNotes": [
-    "Nový IPAM: evidence podsítí a VLAN, obsazenost a stav každé IP adresy s MAC, zařízením a portem, ruční rezervace a export CSV. Historie MAC/IP má vlastní retenci (výchozí 30 dní).",
-    "Agent 0.15.0 čte zápůjčky a rozsahy z Windows DHCP, Collector umí volitelný sken tichých zařízení; nejdřív aktualizujte Server, potom agenty. Instalátory nejsou podepsány certifikátem."
+    "Oprava sběru Windows DHCP: jeden neplatný záznam (řídicí znak ve jméně klienta) už nezahodí celý snímek, vadné řádky se přeskočí. Agent 0.15.1 vypisuje stav sběru DHCP v příkazu diagnose.",
+    "Pro opravu stačí aktualizovat agenta na DHCP serveru; funguje i se Serverem 4.7.0. Instalátory nejsou podepsány certifikátem."
   ]
 }
