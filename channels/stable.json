@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "product": "FirstSuite",
   "channel": "stable",
-  "latestVersion": "4.7.2",
-  "publishedAt": "2026-11-26T16:12:04Z",
-  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.7.2",
+  "latestVersion": "4.7.3",
+  "publishedAt": "2026-11-26T18:54:17Z",
+  "releasePageUrl": "https://github.com/DavidKarlovsky/FirstSuite/releases/tag/v4.7.3",
   "releaseNotes": [
-    "Oprava sběru Windows DHCP: rozsah bez rezervací nebo zápůjček už nezpůsobí stav „Sběr nedostupný“.",
-    "Mění se jen agent 0.15.2; stačí aktualizovat agenta na DHCP serveru. Instalátory nejsou podepsány certifikátem."
+    "Oprava sběru Windows DHCP, poprvé ověřená na skutečné roli DHCP Server (Windows Server 2022 a 2025): rozsahy bez rezervací, neomezená doba zápůjčky i odpovědi bez návratového kódu se načtou správně.",
+    "Agenta 0.15.2 nahraďte agentem 0.15.3, sběr DHCP v něm nefungoval. Instalátory nejsou podepsány certifikátem."
   ]
 }
